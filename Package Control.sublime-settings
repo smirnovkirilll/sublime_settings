@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+                "AutoFileName",
+		"BracketHighlighter",
+		"Clickable URLs",
+		"Color Highlighter",
+		"ColorPicker",
+		"Dockerfile Syntax Highlighting",
+                "Emmet",
+                "ExportHtml",
+		"GenerateUUID",
+		"Git",
+                "GitGutter",
+		"HexViewer",
+		"LaTeXTools",
+		"MarkdownPreview",
+		"OpenScad",
+                "Package Control",
+		"PackageResourceViewer",
+		"PlainTasks",
+		"PlantUmlDiagrams",
+		"ReadmePlease",
+		"SideBarEnhancements",
+		"SublimeLinter-cppcheck",
+                "SublimeLinter-shellcheck",
+                "SublimeREPL",
+		"Terminal",
+		"Terraform",
+	],
+}
+
