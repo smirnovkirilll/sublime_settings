@@ -2,10 +2,10 @@
 # warning: script should be used after installing package control
 # (otherwise it will not install other packages defined in "Package Control.sublime-settings")
 # way to execute:
-# curl -O - https://raw.githubusercontent.com/smirnovkirilll/lookmomimadataengineer/main/sublime_settings/download_settings.sh | sh
+# wget -O - https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/download_settings.sh | bash && rm download_settings.sh
 
 
-DIR_SRC="https://raw.githubusercontent.com/smirnovkirilll/lookmomimadataengineer/main/sublime_settings/"
+DIR_SRC="https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/"
 DIR_TGT_OSX="${HOME}/Library/Application\ Support/Sublime\ Text/Packages/User/"
 DIR_TGT_LINUX="${HOME}/.config/sublime-text/Packages/User/"
 SETTINGS_TO_COPY=(
