@@ -1,8 +1,4 @@
 #!/usr/bin/env sh
-# warning: script should be used after installing package control
-# (otherwise it will not install other packages defined in "Package Control.sublime-settings")
-# way to execute:
-# wget -O - https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/download_settings.sh | bash && rm download_settings.sh
 
 
 DIR_SRC="https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/"
