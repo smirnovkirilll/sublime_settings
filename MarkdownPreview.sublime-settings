@@ -12,6 +12,9 @@
         "markdown.extensions.abbr",
         "markdown.extensions.md_in_html",
         "pymdownx.betterem",
+        "pymdownx.mark",
+        "pymdownx.progressbar",
+        "pymdownx.snippets",
         // Extra's Markdown parsing in raw HTML cannot be
         // included by itself, but "pymdownx" exposes it, so we can.
 
