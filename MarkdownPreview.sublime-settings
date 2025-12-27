@@ -48,7 +48,7 @@
                     {
                         "name": "mermaid",
                         "class": "mermaid",
-                        "format": {"!!python/name": "pymdownx.superfences.fence_code_format"}
+                        "format": {"!!python/name": "pymdownx.superfences.fence_div_format"}
                     }
                 ]
             }
