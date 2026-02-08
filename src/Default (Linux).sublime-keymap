@@ -1,0 +1,7 @@
+[
+    {
+        "keys": ["f12"], "command": "exec", "args": {
+            "shell_cmd": "bash -lc 'buildcv'",
+        }
+    },
+]

@@ -5,7 +5,7 @@
         // as "fenced_code" cannot be included with "superfences",
         // so we include the pieces separately.
         "markdown.extensions.footnotes",
-        "markdown.extensions.nl2br",  // note: конфиг только ради этой строки
+        "markdown.extensions.nl2br",
         "markdown.extensions.attr_list",
         "markdown.extensions.def_list",
         "markdown.extensions.tables",

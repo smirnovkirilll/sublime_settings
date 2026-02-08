@@ -13,5 +13,5 @@ mkdir -p ~/.config/sublime-text/Packages/User
 
 3. use script (fits Linux and MacOs):
 ```bash
-wget -O - https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/download_settings.sh | bash && rm download_settings.sh
+curl -fsSL https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/download_settings.sh | bash
 ```
