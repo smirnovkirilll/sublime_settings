@@ -3,7 +3,7 @@ set -euo pipefail
 
 
 DIR_SRC="https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/src/main/"
-DIR_TGT_OSX="${HOME}/Library/Application\ Support/Sublime\ Text/Packages/User/"
+DIR_TGT_OSX="${HOME}/Library/Application Support/Sublime Text/Packages/User/"
 DIR_TGT_LINUX="${HOME}/.config/sublime-text/Packages/User/"
 SETTINGS_TO_COPY=(
   "Anaconda.sublime-settings"
