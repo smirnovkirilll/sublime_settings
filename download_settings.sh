@@ -6,7 +6,6 @@ DIR_SRC="https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/
 DIR_TGT_OSX="${HOME}/Library/Application Support/Sublime Text/Packages/User/"
 DIR_TGT_LINUX="${HOME}/.config/sublime-text/Packages/User/"
 SETTINGS_TO_COPY=(
-  "Anaconda.sublime-settings"
   "Default (Linux).sublime-keymap"
   "Default (Linux).sublime-mousemap"
   "Default (OSX).sublime-mousemap"
@@ -27,7 +26,7 @@ command -v curl >/dev/null 2>&1 || {
 if [[ -d $DIR_TGT_OSX ]]; then
   dir_tgt=$DIR_TGT_OSX
 else
-  dir_tgt=DIR_TGT_LINUX
+  dir_tgt=$DIR_TGT_LINUX
 fi
 
 # 3. ensure target dir exists
