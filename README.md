@@ -12,14 +12,30 @@
 
 Scripts to help install [Sublime Text](https://www.sublimetext.com) and set up its plugins, implementing MattDMo [proposal given on SO](https://stackoverflow.com/questions/19529999/add-package-control-in-sublime-text-3-through-the-command-line).
 
-1. use script (fits Linux and MacOs)
+
+#### What it does
+1. Installs brew (if needed, MacOS only) and Sublime Text.
+2. Installs [Package Control](https://packagecontrol.io) and the [listed packages](src/Package%20Control.sublime-settings).
+3. Customizes installed packages via [preferences](src).
+
+
+#### Operation systems scripts intended to works with
+```
+MacOS
+Debian/Ubuntu
+Fedora/RHEL
+Arch
+openSUSE
+```
+
+
+#### Usage
 ```bash
 curl -fsSL https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/install_sublime.sh | bash
+curl -fsSL https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/install_packages.sh | bash
 ```
 
-2. install package control manually, otherwise further script will not apply packages defined in `Package Control.sublime-settings` (at least I did not find way how to make it work).
 
-3. use script (fits Linux and MacOs)
-```bash
-curl -fsSL https://raw.githubusercontent.com/smirnovkirilll/sublime_settings/main/download_settings.sh | bash
-```
+#### Customisation
+
+You can provide another repo with packages and preferences via setting environment variable `DIR_SRC`.
