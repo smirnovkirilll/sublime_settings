@@ -10,7 +10,6 @@ DIR_SRC="${DIR_SRC:-$DIR_SRC_DEFAULT}"
 
 
 SETTINGS_TO_COPY=(
-  "Default (Linux).sublime-keymap"
   "Default (Linux).sublime-mousemap"
   "Default (OSX).sublime-mousemap"
   "MarkdownPreview.sublime-settings"
